@@ -1,0 +1,133 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*
+1.Từ ngoài vào trong
+2.Từ trên xuống dưới
+3. Tổng quan đến chi tiết
+*/
+
+
+/*
+1.Vị trí
+2.Kích thước (width, height)
+3.Màu sắc
+4.Kiểu dáng (Kiểu chữ, hình tròn, vuông,...)
+*/
+
+
+
+.main{
+    padding-top: 20px;
+    background-color: none;
+    display: block;
+    margin-left: 200px;
+    margin-right: 200px;
+    top: 0px;
+    margin-top: 0px;
+
+
+}
+
+
+.ảnh_ưu_đãi{
+    margin-left: 200px;
+
+
+}
+
+#nav li {
+    margin-left: 100px;
+    position: relative;
+    display: inline-block
+    
+  
+}
+
+.ảnh_đẹp{
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+.comeback{
+    margin-top: 50px;
+    width: 150px;
+    height: 50px;
+    display: block;
+    background-color: red;
+    font-size: 30px;
+    border-radius: 50px;
+    margin-left: 300px;
+    padding-left: 30px;
+    padding-top: 10px;
+    color: white
+
+
+}
+
+.comeback:hover{
+    background-color: white;
+    color: red;
+    cursor: pointer
+
+
+
+}
+
+a{
+    text-decoration: none;
+
+}
+
+#nav > li > a {
+     color: white;
+}
+
+#nav li a {
+   
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+}
+#nav > li:hover > a,
+
+
+#nav.subnav li:hover a {
+    color: #069be3;
+    background-color: #8ed1fc;
+
+}
+
+
+
+#nav .subnav {
+    /* display: none; */
+    position: absolute;
+    background-color: white ;
+}
+#nav .subnav a {
+    color: #069be3;
+}
+
+#nav.subnav li:hover {
+    color: #069be3;
+    background-color: #8ed1fc;
+}
+
+
+
+#margin-content {
+    color: white;
+    background-color: red
+    
+    
+    
+}
+tr {
+    margin-left: 300px;
+}
